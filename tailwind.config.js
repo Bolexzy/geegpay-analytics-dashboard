@@ -5,8 +5,12 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        accent: "#6160DC",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -14,5 +18,21 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  daisUI: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#6160DC",
+          secondary: "#54C5EB",
+
+          success: "#00ff9e",
+
+          warning: "#FFB74A",
+
+          error: "#FF4A55",
+        },
+      },
+    ],
+  },
+  plugins: [require("daisyui")],
 };
