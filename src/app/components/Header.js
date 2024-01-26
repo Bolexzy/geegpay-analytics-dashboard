@@ -60,7 +60,7 @@ const Header = () => {
             <div className="inline-block">
               <button onClick={() => handleMenuClick()}>
                 <LogoIcon
-                  className={`w-10 h-10 ${
+                  className={`!w-10 h-10 ${
                     isMenuOpen ? "rotate-90" : ""
                   } hover:scale-105 active:scale-95 transition-all duration-300 ease-in-out`}
                 />
@@ -95,7 +95,7 @@ const Header = () => {
                   </div>
                   <div className="inline-block">
                     <Link href="/">
-                      <ArrowDownIcon className="h-5 w-5 text-[#0D062D] dark:text-[#fafafa]  active:rotate-180 transition-all duration-300 ease-in-out" />
+                      <ArrowDownIcon className="h-5 !w-5 text-[#0D062D] dark:text-[#fafafa]  active:rotate-180 transition-all duration-300 ease-in-out" />
                     </Link>
                   </div>
                 </div>
@@ -382,7 +382,7 @@ const Header = () => {
               >
                 <div className="w-10 h-10 rounded-[1.6875rem] flex items-center justify-center p-[0.6875rem] border-[#DADDDD] dark:border-gray-700 border-[0.769px]">
                   <Link href="/">
-                    <NotificationIcon className="h-5 w-5 text-[#0D062D] dark:text-[#fafafa] " />
+                    <NotificationIcon className="h-5 !w-5 text-[#0D062D] dark:text-[#fafafa] " />
                   </Link>
                 </div>
               </div>
@@ -417,7 +417,7 @@ const Header = () => {
                   </div>
                   <div className="inline-block">
                     <Link href="/">
-                      <ArrowDownIcon className="h-5 w-5 text-[#0D062D] dark:text-[#fafafa]  active:rotate-180 transition-all duration-300 ease-in-out" />
+                      <ArrowDownIcon className="h-5 !w-5 text-[#0D062D] dark:text-[#fafafa]  active:rotate-180 transition-all duration-300 ease-in-out" />
                     </Link>
                   </div>
                 </div>

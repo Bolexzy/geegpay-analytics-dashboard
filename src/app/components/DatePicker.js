@@ -15,7 +15,7 @@ const DatePicker = () => {
       <div className="inline-block">
         <details className="dropdown">
           <summary className="btn bg-transparent border-none shadow-none hover:bg-transparent !p-0">
-            <CalendarIcon className="h-5 w-5 text-black dark:text-white" />
+            <CalendarIcon className="h-5 !w-5 text-black dark:text-white" />
           </summary>
 
           <div className="p-2 shadow menu items-center dropdown-content z-[1] bg-white dark:bg-[#252525] text-green-700 rounded-box w-72">
