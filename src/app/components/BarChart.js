@@ -155,7 +155,7 @@ const BarChart = () => {
                   <Link href="/">
                     <ArrowDownIcon
                       className={
-                        "w-5 h-5 group-active:rotate-180 transition-all duration-300 ease-in-out"
+                        "!w-5 h-5 group-active:rotate-180 transition-all duration-300 ease-in-out"
                       }
                     />
                   </Link>

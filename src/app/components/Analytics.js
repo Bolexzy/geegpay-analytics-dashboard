@@ -23,13 +23,13 @@ const Analytics = () => {
             <div className="w-10 h-10 flex items-center justify-center border-[#E6E6E6] dark:border-[#27272A] border-[0.714px] rounded-full">
               <div className="inline-block">
                 <Link href={"/"}>
-                  <BoxTickIcon className={"w-6 h-6"} />
+                  <BoxTickIcon className={"!w-6 h-6"} />
                 </Link>
               </div>
             </div>
             <div className="inline-block">
               <Link href={"/"}>
-                <GreenGraph className={"w-6 h-6"} />
+                <GreenGraph className={"!w-6 h-6"} />
               </Link>
             </div>
           </div>
@@ -46,7 +46,7 @@ const Analytics = () => {
           <div className="w-full flex items-start justify-between">
             <div className="flex items-center justify-center gap-1 py-1 px-2 rounded-[62.5rem] bg-[#34CAA51F]">
               <div className="inline-block">
-                <UpTrendIcon className={"w-[0.5625rem] h-[0.3125rem]"} />
+                <UpTrendIcon className={"!w-[0.5625rem] h-[0.3125rem]"} />
               </div>
               <p className="text-xs font-[500] text-[#34CAA5]">23,5%</p>
             </div>
@@ -64,13 +64,13 @@ const Analytics = () => {
             <div className="w-10 h-10 flex items-center justify-center border-[#E6E6E6] dark:border-[#27272A] border-[0.714px] rounded-full">
               <div className="inline-block">
                 <Link href={"/"}>
-                  <RotateBox className={"w-6 h-6"} />
+                  <RotateBox className={"!w-6 h-6"} />
                 </Link>
               </div>
             </div>
             <div className="inline-block">
               <Link href={"/"}>
-                <RedGraph className={"w-6 h-6"} />
+                <RedGraph className={"!w-6 h-6"} />
               </Link>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Analytics = () => {
           <div className="w-full flex items-start justify-between">
             <div className="flex items-center justify-center gap-1 py-1 px-2 rounded-[62.5rem] bg-[#ED544E1F]">
               <div className="inline-block">
-                <DownTrendIcon className={"w-[0.5625rem] h-[0.3125rem]"} />
+                <DownTrendIcon className={"!w-[0.5625rem] h-[0.3125rem]"} />
               </div>
               <p className="text-xs font-[500] text-[#ED544E]">23,5%</p>
             </div>
@@ -105,13 +105,13 @@ const Analytics = () => {
             <div className="w-10 h-10 flex items-center justify-center border-[#E6E6E6] dark:border-[#27272A] border-[0.714px] rounded-full">
               <div className="inline-block">
                 <Link href={"/"}>
-                  <CartIcon className={"w-6 h-6"} />
+                  <CartIcon className={"!w-6 h-6"} />
                 </Link>
               </div>
             </div>
             <div className="inline-block">
               <Link href={"/"}>
-                <RedGraph className={"w-6 h-6"} />
+                <RedGraph className={"!w-6 h-6"} />
               </Link>
             </div>
           </div>
@@ -128,7 +128,7 @@ const Analytics = () => {
           <div className="w-full flex items-start justify-between">
             <div className="flex items-center justify-center gap-1 py-1 px-2 rounded-[62.5rem] bg-[#ED544E1F]">
               <div className="inline-block">
-                <DownTrendIcon className={"w-[0.5625rem] h-[0.3125rem]"} />
+                <DownTrendIcon className={"!w-[0.5625rem] h-[0.3125rem]"} />
               </div>
               <p className="text-xs font-[500] text-[#ED544E]">23,5%</p>
             </div>
@@ -146,13 +146,13 @@ const Analytics = () => {
             <div className="w-10 h-10 flex items-center justify-center border-[#E6E6E6] dark:border-[#27272A] border-[0.714px] rounded-full">
               <div className="inline-block">
                 <Link href={"/"}>
-                  <CoinIcon className={"w-6 h-6"} />
+                  <CoinIcon className={"!w-6 h-6"} />
                 </Link>
               </div>
             </div>
             <div className="inline-block">
               <Link href={"/"}>
-                <GreenGraph className={"w-6 h-6"} />
+                <GreenGraph className={"!w-6 h-6"} />
               </Link>
             </div>
           </div>
@@ -169,7 +169,7 @@ const Analytics = () => {
           <div className="w-full flex items-start justify-between">
             <div className="flex items-center justify-center gap-1 py-1 px-2 rounded-[62.5rem] bg-[#34CAA51F]">
               <div className="inline-block">
-                <UpTrendIcon className={"w-[0.5625rem] h-[0.3125rem]"} />
+                <UpTrendIcon className={"!w-[0.5625rem] h-[0.3125rem]"} />
               </div>
               <p className="text-xs font-[500] text-[#34CAA5]">23,5%</p>
             </div>
