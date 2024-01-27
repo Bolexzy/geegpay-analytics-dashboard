@@ -83,10 +83,10 @@ const Header = () => {
 
             <details className="dropdown dropdown-end">
               <summary className="btn bg-transparent border-none shadow-none hover:bg-transparent !p-0 group">
-                <div className="w-max flex py-1.5 px-2 items-center gap-2.5 rounded-[1.75rem] border-[1px] border-[#DADDDD] dark:border-gray-700">
+                <div className="w-max flex py-1 px-2 items-center gap-2.5 rounded-[1.75rem] border-[1px] border-[#DADDDD] dark:border-gray-700">
                   <div className="flex items-center gap-2">
                     {/* profile image  */}
-                    <div className="w-[2.375rem] h-[2.375rem]">
+                    <div className="w-[2rem] h-[2rem]">
                       <div
                         className="rounded-[1.1875rem] w-full h-full"
                         style={{
@@ -100,7 +100,7 @@ const Header = () => {
                   </div>
                   <div className="inline-block">
                     <Link href="/">
-                      <ArrowDownIcon className="h-5 !w-5 text-[#0D062D] dark:text-[#fafafa]  active:rotate-180 transition-all duration-300 ease-in-out" />
+                      <ArrowDownIcon className="h-5 !w-5 text-[#0D062D] dark:text-[#fafafa]  group-active:rotate-180 transition-all duration-300 ease-in-out" />
                     </Link>
                   </div>
                 </div>
@@ -427,7 +427,7 @@ const Header = () => {
                   </div>
                   <div className="inline-block">
                     <Link href="/">
-                      <ArrowDownIcon className="h-5 !w-5 text-[#0D062D] dark:text-[#fafafa]  active:rotate-180 transition-all duration-300 ease-in-out" />
+                      <ArrowDownIcon className="h-5 !w-5 text-[#0D062D] dark:text-[#fafafa]  group-active:rotate-180 transition-all duration-300 ease-in-out" />
                     </Link>
                   </div>
                 </div>

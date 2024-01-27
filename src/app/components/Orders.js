@@ -112,7 +112,7 @@ const Orders = () => {
                 <td className="p-4">
                   <div className="flex items-center gap-1.5">
                     <div className="inline-block">
-                      <Link href="">
+                      <Link href="/">
                         <DownloadIcon className="!w-4 h-4 text-[#292D32] dark:text-white" />
                       </Link>
                     </div>
@@ -145,11 +145,18 @@ const Orders = () => {
                             <p className="">$80,000</p>
                           </div>
                           <hr className="py-2"></hr>
-                          <p className="py-4">
+                          <div className="py-4 flex items-center justify-between">
                             <span className="text-[#34CAA5] text-nowrap font-[400] text-sm md:text-base">
                               Paid
                             </span>
-                          </p>
+                            <Link
+                              href={"/"}
+                              className="flex gap-2 items-center text-[#1f5b2d]"
+                            >
+                              <DownloadIcon className="!w-4 h-4 text-[#292D32] dark:text-white" />
+                              Download
+                            </Link>
+                          </div>
                         </div>
                       </dialog>
                     </span>
@@ -198,7 +205,7 @@ const Orders = () => {
                 </td>
                 <td className="p-4">
                   <span
-                    className="text-[#ED544E] dark:text-white/75 text-nowrap font-[400] text-sm md:text-base"
+                    className="text-[#ED544E] text-nowrap font-[400] text-sm md:text-base"
                     style={{ fontFamily: "Plus Jakarta Sans" }}
                   >
                     Refund
@@ -240,11 +247,19 @@ const Orders = () => {
                             <p className="">$150,000</p>
                           </div>
                           <hr className="py-2"></hr>
-                          <p className="py-4">
-                            <span className="text-[#ED544E] dark:text-white/75 text-nowrap font-[400] text-sm md:text-base">
+
+                          <div className="py-4 flex items-center justify-between">
+                            <span className="text-[#ED544E] text-nowrap font-[400] text-sm md:text-base">
                               Refund
                             </span>
-                          </p>
+                            <Link
+                              href={"/"}
+                              className="flex gap-2 items-center text-[#1f5b2d]"
+                            >
+                              <DownloadIcon className="!w-4 h-4 text-[#292D32] dark:text-white" />
+                              Download
+                            </Link>
+                          </div>
                         </div>
                       </dialog>
                     </span>
@@ -336,11 +351,18 @@ const Orders = () => {
                             <p className="">$87,000</p>
                           </div>
                           <hr className="py-2"></hr>
-                          <p className="py-4">
+                          <div className="py-4 flex items-center justify-between">
                             <span className="text-[#34CAA5] text-nowrap font-[400] text-sm md:text-base">
                               Paid
                             </span>
-                          </p>
+                            <Link
+                              href={"/"}
+                              className="flex gap-2 items-center text-[#1f5b2d]"
+                            >
+                              <DownloadIcon className="!w-4 h-4 text-[#292D32] dark:text-white" />
+                              Download
+                            </Link>
+                          </div>
                         </div>
                       </dialog>
                     </span>
@@ -432,11 +454,18 @@ const Orders = () => {
                             <p className="">$100,000</p>
                           </div>
                           <hr className="py-2"></hr>
-                          <p className="py-4">
+                          <div className="py-4 flex items-center justify-between">
                             <span className="text-[#ED544E] text-nowrap font-[400] text-sm md:text-base">
                               Refund
                             </span>
-                          </p>
+                            <Link
+                              href={"/"}
+                              className="flex gap-2 items-center text-[#1f5b2d]"
+                            >
+                              <DownloadIcon className="!w-4 h-4 text-[#292D32] dark:text-white" />
+                              Download
+                            </Link>
+                          </div>
                         </div>
                       </dialog>
                     </span>
@@ -516,11 +545,18 @@ const Orders = () => {
                             <p className="">$78,000</p>
                           </div>
                           <hr className="py-2"></hr>
-                          <p className="py-4">
+                          <div className="py-4 flex items-center justify-between">
                             <span className="text-[#34CAA5] text-nowrap font-[400] text-sm md:text-base">
                               Paid
                             </span>
-                          </p>
+                            <Link
+                              href={"/"}
+                              className="flex gap-2 items-center text-[#1f5b2d]"
+                            >
+                              <DownloadIcon className="!w-4 h-4 text-[#292D32] dark:text-white" />
+                              Download
+                            </Link>
+                          </div>
                         </div>
                       </dialog>
                     </span>

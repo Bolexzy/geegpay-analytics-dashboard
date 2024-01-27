@@ -28,7 +28,7 @@ const Platform = () => {
             Book Bazaar
           </h3>
           <progress
-            className="progress progress-primary bg-[#F5F5F5] dark:bg-[#27272A] w-full h-[0.65rem] md:h-[0.75rem] rounded-xl"
+            className="progress progress-primary bg-[#F5F5F5] hover:animate-pulse dark:bg-[#27272A] w-full h-[0.65rem] md:h-[0.75rem] rounded-xl"
             value="53"
             max="100"
           ></progress>
@@ -59,7 +59,7 @@ const Platform = () => {
             Artisan Aisle
           </h3>
           <progress
-            className="progress progress-secondary bg-[#F5F5F5] dark:bg-[#27272A] w-full h-[0.65rem] md:h-[0.75rem] rounded-xl"
+            className="progress progress-secondary hover:animate-pulse bg-[#F5F5F5] dark:bg-[#27272A] w-full h-[0.65rem] md:h-[0.75rem] rounded-xl"
             value="45"
             max="100"
           ></progress>
@@ -90,7 +90,7 @@ const Platform = () => {
             Toy Troop
           </h3>
           <progress
-            className="progress progress-warning bg-[#F5F5F5] dark:bg-[#27272A] w-full h-[0.65rem] md:h-[0.75rem] rounded-xl"
+            className="progress progress-warning hover:animate-pulse bg-[#F5F5F5] dark:bg-[#27272A] w-full h-[0.65rem] md:h-[0.75rem] rounded-xl"
             value="27"
             max="100"
           ></progress>
@@ -121,7 +121,7 @@ const Platform = () => {
             XStore
           </h3>
           <progress
-            className="progress progress-error bg-[#F5F5F5] dark:bg-[#27272A] w-full h-[0.65rem] md:h-[0.75rem] rounded-xl"
+            className="progress progress-error hover:animate-pulse bg-[#F5F5F5] dark:bg-[#27272A] w-full h-[0.65rem] md:h-[0.75rem] rounded-xl"
             value="27"
             max="100"
           ></progress>

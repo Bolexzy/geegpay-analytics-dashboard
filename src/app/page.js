@@ -23,9 +23,9 @@ export default function Home() {
             className="tooltip tooltip-bottom tooltip-info"
             data-tip="You have no new notifications"
           >
-            <div className="w-10 h-10 rounded-[1.6875rem] flex items-center justify-center p-[0.6875rem] border-[#DADDDD] dark:border-gray-700 border-[0.769px]">
+            <div className="w-6 h-6 rounded-[1.6875rem] flex items-center justify-center p-[0.6875rem] border-[#DADDDD] dark:border-gray-700 border-[0.769px]">
               <Link href="/">
-                <NotificationIcon className="h-5 w-5 text-[#0D062D] dark:text-[#fafafa] " />
+                <NotificationIcon className="h-4 !w-4 text-[#0D062D] dark:text-[#fafafa] " />
               </Link>
             </div>
           </div>
@@ -35,7 +35,7 @@ export default function Home() {
           <input
             type="text"
             placeholder="Search..."
-            className="input text-[#A3A3A3] text-base
+            className="input text-[#151618] text-base
                input-bordered w-full max-w-xs pl-12 h-12 items-center gap-x-2 rounded-3xl border-[1px] border-[#DADDDD] dark:border-gray-700 bg-[#fff] dark:bg-[#151618] dark:text-[#fafafa]"
           />
 
@@ -43,7 +43,7 @@ export default function Home() {
             <Link href="/">
               <SearchIcon
                 className={
-                  "absolute left-4 top-1/2 transform -translate-y-1/2 h-5 !w-5 text-gray-500"
+                  "absolute left-4 top-1/2 transform -translate-y-1/2 h-5 !w-5 dark:text-gray-400 text-black"
                 }
               />
             </Link>
