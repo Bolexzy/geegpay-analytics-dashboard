@@ -363,8 +363,8 @@ const Header = () => {
               <input
                 type="text"
                 placeholder="Search..."
-                className="input text-[#A3A3A3] text-base
-               input-bordered w-full max-w-xs pl-12 h-12 items-center gap-x-2 rounded-3xl border-[1px] border-[#DADDDD] dark:border-gray-700 bg-[#fff] dark:bg-[#151618] dark:text-[#fafafa]"
+                className="input text-[#151618] text-base
+              input-bordered w-full max-w-xs pl-12 h-12 items-center gap-x-2 rounded-3xl border-[1px] border-[#DADDDD] dark:border-gray-700 bg-[#fff] dark:bg-[#151618]  dark:text-[#fafafa]"
               />
 
               <div className="inline-block ">
