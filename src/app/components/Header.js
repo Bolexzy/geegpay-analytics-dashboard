@@ -39,7 +39,7 @@ const Header = () => {
 
   const [mode, setMode] = useThemeSwitcher();
   // active side menu
-  const [menuActive, setMenuActive] = useState("");
+  const [menuActive, setMenuActive] = useState("category");
 
   const handleClick = () => {
     setMode(mode === "light" ? "dark" : "light");
