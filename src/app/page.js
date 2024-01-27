@@ -14,9 +14,9 @@ export default function Home() {
       <Header />
       <div className="w-full my-7 flex items-start px-5 md:hidden flex-col">
         {/*  calendar and notification */}
-        <div className="w-max flex items-center lg:gap-5 gap-2 px-1 py-3">
+        <div className="w-max flex items-center lg:gap-5 gap-2 px-1">
           {/* calendar  */}
-          <div className="flex py-3 px-1 items-center gap-2">
+          <div className="flex py-1 px-1 items-center gap-2">
             <DatePicker />
           </div>
           <div

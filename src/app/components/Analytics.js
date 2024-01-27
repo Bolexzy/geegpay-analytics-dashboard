@@ -29,16 +29,22 @@ const Analytics = () => {
             </div>
             <div className="inline-block">
               <Link href={"/"}>
-                <GreenGraph className={"!w-6 h-6"} />
+                <GreenGraph className={"!w-[6.5rem] h-auto"} />
               </Link>
             </div>
           </div>
           {/* total order  */}
           <div className="w-full flex flex-col items-start">
-            <p className="text-base md:text-lg font-[500] text-[#898989] dark:text-white/75">
+            <p
+              className="text-base md:text-lg font-[500] text-[#898989] dark:text-white/75"
+              style={{ fontFamily: "Plus Jakarta Sans" }}
+            >
               Total Order
             </p>
-            <p className="text-xl md:text-2xl font-[600] text-[#3A3F51] dark:text-white">
+            <p
+              className="text-xl md:text-2xl font-[600] text-[#3A3F51] dark:text-white"
+              style={{ fontFamily: "Plus Jakarta Sans" }}
+            >
               350
             </p>
           </div>
@@ -48,7 +54,12 @@ const Analytics = () => {
               <div className="inline-block">
                 <UpTrendIcon className={"!w-[0.5625rem] h-[0.3125rem]"} />
               </div>
-              <p className="text-xs font-[500] text-[#34CAA5]">23,5%</p>
+              <p
+                className="text-xs font-[500] text-[#34CAA5]"
+                style={{ fontFamily: "Plus Jakarta Sans" }}
+              >
+                23,5%
+              </p>
             </div>
             <div>
               <p className="text-sm font-[400] text-[#606060] dark:text-white/75">
@@ -70,16 +81,22 @@ const Analytics = () => {
             </div>
             <div className="inline-block">
               <Link href={"/"}>
-                <RedGraph className={"!w-6 h-6"} />
+                <RedGraph className={"!w-[6.5rem] h-auto"} />
               </Link>
             </div>
           </div>
           {/* total order  */}
           <div className="w-full flex flex-col items-start">
-            <p className="text-base md:text-lg font-[500] text-[#898989] dark:text-white/75">
+            <p
+              className="text-base md:text-lg font-[500] text-[#898989] dark:text-white/75"
+              style={{ fontFamily: "Plus Jakarta Sans" }}
+            >
               Total Refund
             </p>
-            <p className="text-xl md:text-2xl font-[600] text-[#3A3F51] dark:text-white">
+            <p
+              className="text-xl md:text-2xl font-[600] text-[#3A3F51] dark:text-white"
+              style={{ fontFamily: "Plus Jakarta Sans" }}
+            >
               270
             </p>
           </div>
@@ -89,7 +106,12 @@ const Analytics = () => {
               <div className="inline-block">
                 <DownTrendIcon className={"!w-[0.5625rem] h-[0.3125rem]"} />
               </div>
-              <p className="text-xs font-[500] text-[#ED544E]">23,5%</p>
+              <p
+                className="text-xs font-[500] text-[#ED544E]"
+                style={{ fontFamily: "Plus Jakarta Sans" }}
+              >
+                23,5%
+              </p>
             </div>
             <div>
               <p className="text-sm font-[400] text-[#606060] dark:text-white/75">
@@ -111,16 +133,23 @@ const Analytics = () => {
             </div>
             <div className="inline-block">
               <Link href={"/"}>
-                <RedGraph className={"!w-6 h-6"} />
+                <RedGraph className={"!w-[6.5rem] h-auto"} />
               </Link>
             </div>
           </div>
           {/* total order  */}
           <div className="w-full flex flex-col items-start">
-            <p className="text-base md:text-lg  font-[500] text-[#898989] dark:text-white/75">
+            <p
+              className="text-base md:text-lg  font-[500] text-[#898989] dark:text-white/75
+            "
+              style={{ fontFamily: "Plus Jakarta Sans" }}
+            >
               Average Sales
             </p>
-            <p className="text-xl md:text-2xl font-[600] text-[#3A3F51] dark:text-white">
+            <p
+              className="text-xl md:text-2xl font-[600] text-[#3A3F51] dark:text-white"
+              style={{ fontFamily: "Plus Jakarta Sans" }}
+            >
               1567
             </p>
           </div>
@@ -130,7 +159,12 @@ const Analytics = () => {
               <div className="inline-block">
                 <DownTrendIcon className={"!w-[0.5625rem] h-[0.3125rem]"} />
               </div>
-              <p className="text-xs font-[500] text-[#ED544E]">23,5%</p>
+              <p
+                className="text-xs font-[500] text-[#ED544E]"
+                style={{ fontFamily: "Plus Jakarta Sans" }}
+              >
+                23,5%
+              </p>
             </div>
             <div>
               <p className="text-sm font-[400] text-[#606060] dark:text-white/75">
@@ -152,16 +186,22 @@ const Analytics = () => {
             </div>
             <div className="inline-block">
               <Link href={"/"}>
-                <GreenGraph className={"!w-6 h-6"} />
+                <GreenGraph className={"!w-[6.5rem] h-auto"} />
               </Link>
             </div>
           </div>
           {/* total order  */}
           <div className="w-full flex flex-col items-start">
-            <p className="text-base md:text-lg font-[500] text-[#898989] dark:text-white/75">
+            <p
+              className="text-base md:text-lg font-[500] text-[#898989] dark:text-white/75"
+              style={{ fontFamily: "Plus Jakarta Sans" }}
+            >
               Total Income
             </p>
-            <p className="text-xl md:text-2xl font-[600] text-[#3A3F51] dark:text-white">
+            <p
+              className="text-xl md:text-2xl font-[600] text-[#3A3F51] dark:text-white"
+              style={{ fontFamily: "Plus Jakarta Sans" }}
+            >
               $350.000
             </p>
           </div>
@@ -171,7 +211,12 @@ const Analytics = () => {
               <div className="inline-block">
                 <UpTrendIcon className={"!w-[0.5625rem] h-[0.3125rem]"} />
               </div>
-              <p className="text-xs font-[500] text-[#34CAA5]">23,5%</p>
+              <p
+                className="text-xs font-[500] text-[#34CAA5]"
+                style={{ fontFamily: "Plus Jakarta Sans" }}
+              >
+                23,5%
+              </p>
             </div>
             <div>
               <p className="text-sm font-[400] text-[#606060] dark:text-white/75">

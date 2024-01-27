@@ -134,28 +134,37 @@ const BarChart = () => {
     });
   }, []);
   return (
-    <div className="w-full h-full lg:h-full  flex flex-col gap-4 items-center p-5 border-[1px] rounded-[0.875rem]  border-[#EDF2F7] dark:border-[#27272A] bg-white dark:bg-[#181818]">
+    <div className="w-full h-full lg:h-full  flex flex-col gap-4 items-center p-2 sm:p-5 border-[1px] rounded-[0.875rem]  border-[#EDF2F7] dark:border-[#27272A] bg-white dark:bg-[#181818]">
       <div className="w-full flex items-center justify-between">
         <div>
-          <p className="text-base md:text-lg text-[#26282C] dark:text-[#fafafa] font-[600]">
+          <p
+            className="text-base md:text-lg text-[#26282C] dark:text-[#fafafa] font-[600]"
+            style={{ fontFamily: "Plus Jakarta Sans" }}
+          >
             Sales Trends
           </p>
         </div>
         <div className="flex items-center justify-center gap-2.5">
-          <p className="text-xs md:text-sm text-[#3A3F51] font-[500] dark:text-[#fafafa]">
+          <p
+            className="text-xs md:text-sm text-[#3A3F51] font-[500] dark:text-[#fafafa]"
+            style={{ fontFamily: "Plus Jakarta Sans" }}
+          >
             Short by :{" "}
           </p>
           <details className="dropdown dropdown-end ">
             <summary className="btn bg-transparent border-none shadow-none hover:bg-transparent !p-0 group">
               <div className="flex items-center justify-center rounded-[1.25rem] bg-[#fff] dark:bg-[#181818] border-[1px] border-[#E1DFDF] py-1.5 px-3 gap-2.5">
-                <p className="text-xs font-[400] text-[#3A3F51] dark:text-[#fafafa]">
+                <p
+                  className="text-xs font-[400] text-[#3A3F51] dark:text-[#fafafa]"
+                  style={{ fontFamily: "Plus Jakarta Sans" }}
+                >
                   {short}
                 </p>
                 <div className="flex">
                   <Link href="/">
                     <ArrowDownIcon
                       className={
-                        "!w-5 h-5 group-active:rotate-180 transition-all duration-300 ease-in-out"
+                        "!w-5 h-5 text-[#0D062D] dark:text-[#fafafa] group-active:rotate-180 transition-all duration-300 ease-in-out"
                       }
                     />
                   </Link>
@@ -176,7 +185,7 @@ const BarChart = () => {
           </details>
         </div>
       </div>
-      <div className="!w-full xl:h-[18rem] h-max">
+      <div className="!w-full  xl:h-[18rem] h-max">
         <Bar data={chartData} options={chartOptions} />
       </div>
     </div>

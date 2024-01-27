@@ -8,10 +8,16 @@ const Orders = () => {
     <div className="flex flex-col gap-5 items-center p-5 h-auto">
       {/* title  */}
       <div className="w-full flex items-center justify-between">
-        <h3 className="text-base md:text-lg  text-[#26282C] dark:text-[#fafafa]  font-[600]">
+        <h3
+          className="text-base md:text-lg  text-[#26282C] dark:text-[#fafafa]  font-[600]"
+          style={{ fontFamily: "Plus Jakarta Sans" }}
+        >
           Last Orders
         </h3>
-        <h3 className="text-base md:text-lg  text-[#34CAA5] font-[500]">
+        <h3
+          className="text-base md:text-lg  text-[#34CAA5] font-[500]"
+          style={{ fontFamily: "Plus Jakarta Sans" }}
+        >
           See All
         </h3>
       </div>
@@ -21,27 +27,42 @@ const Orders = () => {
           <table className="table w-full">
             {/* head */}
             <thead>
-              <tr className="border-[#EDF2F6] dark:border-[#27272A]">
-                <th className="text-[#9CA4AB] text-sm md:text-base font-[500] p-4">
+              <tr className="border-[#EDF2F6] dark:border-[#27272A] hover:bg-[#F5F5F5] dark:hover:bg-[#262626]">
+                <th
+                  className="text-[#9CA4AB] text-sm md:text-base font-[500] p-4"
+                  style={{ fontFamily: "Plus Jakarta Sans" }}
+                >
                   Name
                 </th>
-                <th className="text-[#9CA4AB] text-sm md:text-base font-[500] p-4">
+                <th
+                  className="text-[#9CA4AB] text-sm md:text-base font-[500] p-4"
+                  style={{ fontFamily: "Plus Jakarta Sans" }}
+                >
                   Date
                 </th>
-                <th className="text-[#9CA4AB] text-sm md:text-base font-[500] p-4">
+                <th
+                  className="text-[#9CA4AB] text-sm md:text-base font-[500] p-4"
+                  style={{ fontFamily: "Plus Jakarta Sans" }}
+                >
                   Amount
                 </th>
-                <th className="text-[#9CA4AB] text-sm md:text-base font-[500] p-4">
+                <th
+                  className="text-[#9CA4AB] text-sm md:text-base font-[500] p-4"
+                  style={{ fontFamily: "Plus Jakarta Sans" }}
+                >
                   Status
                 </th>
-                <th className="text-[#9CA4AB] text-sm md:text-base font-[500] p-4">
+                <th
+                  className="text-[#9CA4AB] text-sm md:text-base font-[500] p-4"
+                  style={{ fontFamily: "Plus Jakarta Sans" }}
+                >
                   Invoice
                 </th>
               </tr>
             </thead>
             <tbody>
               {/* row 1 */}
-              <tr className="border-[#EDF2F6] dark:border-[#27272A]">
+              <tr className="border-[#EDF2F6] dark:border-[#27272A] hover:bg-[#F5F5F5] dark:hover:bg-[#262626]">
                 {/* image profile */}
                 <td className="p-4">
                   <div className="flex items-center gap-2.5">
@@ -55,24 +76,36 @@ const Orders = () => {
                       </div>
                     </div>
 
-                    <div className="text-nowrap text-[#3A3F51] dark:text-white/75 text-sm md:text-base font-[500]">
+                    <div
+                      className="text-nowrap text-[#3A3F51] dark:text-white/75 text-sm md:text-base font-[500]"
+                      style={{ fontFamily: "Plus Jakarta Sans" }}
+                    >
                       Marcus Bergson
                     </div>
                   </div>
                 </td>
                 <td className="p-4">
                   {/* date cell  */}
-                  <span className="text-nowrap font-[400] text-sm md:text-base text-[#737373] dark:text-white/75">
+                  <span
+                    className="text-nowrap font-[400] text-sm md:text-base text-[#737373] dark:text-white/75"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     Nov 15, 2023
                   </span>
                 </td>
                 <td className="p-4">
-                  <span className="text-nowrap font-[500] text-sm md:text-base text-[#0D062D ] dark:text-white/75">
+                  <span
+                    className="text-nowrap font-[500] text-sm md:text-base text-[#0D062D ] dark:text-white/75"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     $80,000
                   </span>
                 </td>
                 <td className="p-4">
-                  <span className="text-[#34CAA5] text-nowrap font-[400] text-sm md:text-base">
+                  <span
+                    className="text-[#34CAA5] text-nowrap font-[400] text-sm md:text-base"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     Paid
                   </span>
                 </td>
@@ -89,6 +122,7 @@ const Orders = () => {
                         onClick={() =>
                           document.getElementById("my_modal_1").showModal()
                         }
+                        style={{ fontFamily: "Plus Jakarta Sans" }}
                       >
                         View
                       </button>
@@ -123,7 +157,7 @@ const Orders = () => {
                 </td>
               </tr>
               {/* row 2 */}
-              <tr className="border-[#EDF2F6] dark:border-[#27272A]">
+              <tr className="border-[#EDF2F6] dark:border-[#27272A] hover:bg-[#F5F5F5] dark:hover:bg-[#262626] ">
                 {/* image profile */}
                 <td className="p-4">
                   <div className="flex items-center gap-2.5">
@@ -137,24 +171,36 @@ const Orders = () => {
                       </div>
                     </div>
 
-                    <div className="text-nowrap text-[#3A3F51] dark:text-white/75 text-sm md:text-base font-[500]">
+                    <div
+                      className="text-nowrap text-[#3A3F51] dark:text-white/75 text-sm md:text-base font-[500]"
+                      style={{ fontFamily: "Plus Jakarta Sans" }}
+                    >
                       Jaydon Vaccaro
                     </div>
                   </div>
                 </td>
                 <td className="p-4">
                   {/* date cell  */}
-                  <span className="text-nowrap font-[400] text-sm md:text-base text-[#737373] dark:text-white/75">
+                  <span
+                    className="text-nowrap font-[400] text-sm md:text-base text-[#737373] dark:text-white/75"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     Nov 15, 2023
                   </span>
                 </td>
                 <td className="p-4">
-                  <span className="text-nowrap font-[500] text-sm md:text-base text-[#0D062D] dark:text-white/75">
+                  <span
+                    className="text-nowrap font-[500] text-sm md:text-base text-[#0D062D] dark:text-white/75"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     $150,000
                   </span>
                 </td>
                 <td className="p-4">
-                  <span className="text-[#ED544E] dark:text-white/75 text-nowrap font-[400] text-sm md:text-base">
+                  <span
+                    className="text-[#ED544E] dark:text-white/75 text-nowrap font-[400] text-sm md:text-base"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     Refund
                   </span>
                 </td>
@@ -171,6 +217,7 @@ const Orders = () => {
                         onClick={() =>
                           document.getElementById("my_modal_2").showModal()
                         }
+                        style={{ fontFamily: "Plus Jakarta Sans" }}
                       >
                         View
                       </button>
@@ -206,7 +253,7 @@ const Orders = () => {
               </tr>
 
               {/* row 3 */}
-              <tr className="border-[#EDF2F6] dark:border-[#27272A]">
+              <tr className="border-[#EDF2F6] dark:border-[#27272A] hover:bg-[#F5F5F5] dark:hover:bg-[#262626] ">
                 {/* image profile */}
                 <td className="p-4">
                   <div className="flex items-center gap-2.5">
@@ -220,24 +267,36 @@ const Orders = () => {
                       </div>
                     </div>
 
-                    <div className="text-nowrap text-[#3A3F51] dark:text-white/75 text-sm md:text-base font-[500]">
+                    <div
+                      className="text-nowrap text-[#3A3F51] dark:text-white/75 text-sm md:text-base font-[500]"
+                      style={{ fontFamily: "Plus Jakarta Sans" }}
+                    >
                       Corey Schleifer
                     </div>
                   </div>
                 </td>
                 <td>
                   {/* date cell  */}
-                  <span className="text-nowrap font-[400] text-sm md:text-base text-[#737373] dark:text-white/75">
+                  <span
+                    className="text-nowrap font-[400] text-sm md:text-base text-[#737373] dark:text-white/75"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     Nov 14, 2023
                   </span>
                 </td>
                 <td className="p-4">
-                  <span className="text-nowrap font-[500] text-sm md:text-base text-[#0D062D] dark:text-white/75">
+                  <span
+                    className="text-nowrap font-[500] text-sm md:text-base text-[#0D062D] dark:text-white/75"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     $87,000
                   </span>
                 </td>
                 <td className="p-4">
-                  <span className="text-[#34CAA5] text-nowrap font-[400] text-sm md:text-base">
+                  <span
+                    className="text-[#34CAA5] text-nowrap font-[400] text-sm md:text-base"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     Paid
                   </span>
                 </td>
@@ -254,6 +313,7 @@ const Orders = () => {
                         onClick={() =>
                           document.getElementById("my_modal_3").showModal()
                         }
+                        style={{ fontFamily: "Plus Jakarta Sans" }}
                       >
                         View
                       </button>
@@ -289,7 +349,7 @@ const Orders = () => {
               </tr>
 
               {/* row 4 */}
-              <tr className="border-[#EDF2F6] dark:border-[#27272A]">
+              <tr className="border-[#EDF2F6] dark:border-[#27272A] hover:bg-[#F5F5F5] dark:hover:bg-[#262626]">
                 {/* image profile */}
                 <td className="p-4">
                   <div className="flex items-center gap-2.5">
@@ -303,24 +363,36 @@ const Orders = () => {
                       </div>
                     </div>
 
-                    <div className="text-nowrap text-[#3A3F51] dark:text-white/75 text-sm md:text-base font-[500]">
+                    <div
+                      className="text-nowrap text-[#3A3F51] dark:text-white/75 text-sm md:text-base font-[500]"
+                      style={{ fontFamily: "Plus Jakarta Sans" }}
+                    >
                       Cooper Press
                     </div>
                   </div>
                 </td>
                 <td className="p-4">
                   {/* date cell  */}
-                  <span className="text-nowrap font-[400] text-sm md:text-base text-[#737373] dark:text-white/75">
+                  <span
+                    className="text-nowrap font-[400] text-sm md:text-base text-[#737373] dark:text-white/75"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     Nov 14, 2023
                   </span>
                 </td>
                 <td className="p-4">
-                  <span className="text-nowrap font-[500] text-sm md:text-base text-[#0D062D] dark:text-white/75">
+                  <span
+                    className="text-nowrap font-[500] text-sm md:text-base text-[#0D062D] dark:text-white/75"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     $100,000
                   </span>
                 </td>
                 <td className="p-4">
-                  <span className="text-[#ED544E] text-nowrap font-[400] text-sm md:text-base">
+                  <span
+                    className="text-[#ED544E] text-nowrap font-[400] text-sm md:text-base"
+                    style={{ fontFamily: "Plus Jakarta Sans" }}
+                  >
                     Refund
                   </span>
                 </td>
@@ -337,6 +409,7 @@ const Orders = () => {
                         onClick={() =>
                           document.getElementById("my_modal_4").showModal()
                         }
+                        style={{ fontFamily: "Plus Jakarta Sans" }}
                       >
                         View
                       </button>
@@ -372,7 +445,7 @@ const Orders = () => {
               </tr>
 
               {/* row 5 */}
-              <tr className="border-[#EDF2F6]">
+              <tr className="border-[#EDF2F6] dark:border-[#27272A] hover:bg-[#F5F5F5] dark:hover:bg-[#262626]">
                 {/* image profile */}
                 <td className="p-4">
                   <div className="flex items-center gap-2.5">

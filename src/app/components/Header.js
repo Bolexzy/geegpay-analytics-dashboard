@@ -68,7 +68,12 @@ const Header = () => {
             </div>
 
             <div className="flex w-max gap-4 items-center justify-center mx-auto">
-              <h2 className="text-xl font-[600]">Dashboard</h2>
+              <h2
+                className="text-xl font-[600]"
+                style={{ fontFamily: "Plus Jakarta Sans" }}
+              >
+                Dashboard
+              </h2>
             </div>
             {/* search input  */}
           </div>
@@ -131,7 +136,7 @@ const Header = () => {
           style={{ marginTop: `${divHeight}px` }}
         >
           {/* Side menu content goes here */}
-          <div className="flex flex-col h-full py-5 gap-2.5 bg-[#F7F8FA] dark:bg-black border-r-[1px] border-[#EBECF2] dark:border-gray-700 w-full items-center">
+          <div className="flex flex-col min-h-screen h-full py-5 gap-2.5 bg-[#F7F8FA] dark:bg-black border-r-[1px] border-[#EBECF2] dark:border-gray-700 w-full items-center">
             {/* container for menus */}
             <div className="h-full w-full flex flex-col items-center overflow-x-hidden overflow-y-auto gap-16 bg-[#F7F8FA] dark:bg-black">
               {/* main menu box */}
@@ -255,7 +260,7 @@ const Header = () => {
                             <SunIcon
                               className={`${
                                 mode === "dark" ? "hidden" : "flex"
-                              } w-4 h-4`}
+                              } !w-3 sm:!w-4 h-4`}
                             />
                           </Link>
                         </div>
@@ -265,7 +270,7 @@ const Header = () => {
                           <MoonIcon
                             className={`${
                               mode === "dark" ? "flex" : "hidden"
-                            } w-7.5 h-7.5`}
+                            } !w-6 sm:!w-7.5 h-7.5`}
                           />
                         </Link>
                       </div>
@@ -339,7 +344,12 @@ const Header = () => {
           {/* dashboard and search  */}
           <div className="w-full flex justify-between gap-10 items-center ">
             <div className="flex w-max">
-              <h2 className="text-xl font-[600]">Dashboard</h2>
+              <h2
+                className="text-xl font-[600]"
+                style={{ fontFamily: "Plus Jakarta Sans" }}
+              >
+                Dashboard
+              </h2>
             </div>
             {/* search input  */}
             {/* small screen  */}
